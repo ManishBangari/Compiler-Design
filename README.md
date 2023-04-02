@@ -15,11 +15,15 @@ To install flex write the following commands on the terminal.
 BASIC SYNTAX OF A LEX PROGRAM :-
 
 %{
+
 // Definition Section - Declare the files and the variables/constants to be needed.
+
 %}
 
 %%
+
 //  Rules Section - Declare the rules here.
+
 %%
 
 // User-code Section or Auxiliary Code Section.
@@ -30,11 +34,11 @@ HOW TO RUN :-
 2. Open the terminal in the same directory which contains lex code to be compiled.
 3. Now type the following commands.
 
-   3.1 lex <file-name>.lex
+   3.1 -> lex file-name.lex
    
-   3.2 gcc lex.yy.c
+   3.2 -> gcc lex.yy.c
    
-   3.3 ./a.out
+   3.3 -> ./a.out
  
  
 You can read more about flex on the wikipedia page - https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator) 
