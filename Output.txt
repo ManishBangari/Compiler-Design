@@ -1,0 +1,5 @@
+This is some text.
+ replace white spaces 
+ of ‘Input.txt’ file 
+ by a 
+ single blank character into ‘Output.txt’ file.
