@@ -31,7 +31,9 @@ HOW TO RUN :-
 3. Now type the following commands.
 
    3.1 lex <file-name>.lex
+   
    3.2 gcc lex.yy.c
+   
    3.3 ./a.out
  
  
