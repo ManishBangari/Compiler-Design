@@ -8,8 +8,8 @@ It is a computer program that generates lexical analyzers (also known as "scanne
 HOW TO INSTALL FLEX :-
 To install flex write the following commands on the terminal.
 
-sudo apt-get update
-sudo apt-get install flex
+1. sudo apt-get update
+2. sudo apt-get install flex
 
 
 BASIC SYNTAX OF A LEX PROGRAM :-
@@ -29,9 +29,9 @@ HOW TO RUN :-
 1. Save the file using .l extension
 2. Open the terminal in the same directory which contains lex code to be compiled.
 3. Now type the following commands.
- 3.1 lex <file-name>.lex
- 3.2 gcc lex.yy.c
- 3.3 ./a.out
+3.1 lex <file-name>.lex
+3.2 gcc lex.yy.c
+3.3 ./a.out
  
  
 You can read more about flex on the wikipedia page - https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator) 
