@@ -29,9 +29,10 @@ HOW TO RUN :-
 1. Save the file using .l extension
 2. Open the terminal in the same directory which contains lex code to be compiled.
 3. Now type the following commands.
-3.1 lex <file-name>.lex
-3.2 gcc lex.yy.c
-3.3 ./a.out
+
+   3.1 lex <file-name>.lex
+   3.2 gcc lex.yy.c
+   3.3 ./a.out
  
  
 You can read more about flex on the wikipedia page - https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator) 
