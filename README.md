@@ -6,7 +6,7 @@ It is a computer program that generates lexical analyzers (also known as "scanne
 
 
 HOW TO INSTALL FLEX :-
-To install flex write the following commands on the terminal.
+To install flex in Ubuntu write the following commands on the terminal.
 
 1. sudo apt-get update
 2. sudo apt-get install flex
